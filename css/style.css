@@ -623,3 +623,22 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+/*Centers "button" in the middle of the page*/
+
+
+.fcc-btn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: right;
+  background-color: #bac964;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.fcc-btn:hover {
+  background-color: #918F9A;
+}
