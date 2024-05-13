@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: rgba(255, 255, 255, 0.4);
-  background: #222;
+  background: #6e7171;
   line-height: 1.7;
   font-size: 16px;
   font-weight: 300; }
@@ -641,4 +641,42 @@ a {
 
 .fcc-btn:hover {
   background-color: #918F9A;
+}
+.en{
+  color: #b2c251;
+}
+.es{
+  color: #edf0f2;
+}
+.check{
+  position: relative;
+  width: 50px;
+  margin-bottom: 15px;
+}
+.check:before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  
+  background: #333;
+  border-radius: 25px;
+}
+.check:after{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 25px;
+  transition: 0.25s;
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+.check:checked:after{
+  left: 25px;
+  border: 2px solid #8ae67c;
+}
+.check:checked:before{
+  background:  #8ae67c;
 }
